@@ -54,7 +54,7 @@ export function useFeedFeedback(feed: FeedDescriptor, hasSession: boolean) {
           encoding: 'application/json',
           headers: {
             // TODO when we start sending to other feeds, we need to grab their DID -prf
-            'atproto-proxy': 'did:web:discover.bsky.app#bsky_fg',
+            'atproto-proxy': 'did:web:algo.pop2.bsky.app#bsky_fg',
           },
         },
       )
